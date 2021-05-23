@@ -161,3 +161,6 @@ export default function Navbar() {
         </>
     );
 }
+
+// Derived from/the efforts of
+// https://chakra-templates.dev/navigation/navbar
