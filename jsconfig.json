@@ -2,11 +2,11 @@
     "compilerOptions": {
       "baseUrl": ".",
       "paths": {
-        // "@/components/*": ["components/*"], 
+        "@/components/*": ["components/*"], 
         // "@/styles/*":["styles/*"],
         // "@/constants/*":["constants/*"], 
-        // "@/context/*":["context/*"], 
-        // "@/hooks/*":["hooks/*"],
+        "@/context/*":["context/*"], 
+        "@/hooks/*":["hooks/*"],
         "@/theme/*":["theme/*"],
             
       }
