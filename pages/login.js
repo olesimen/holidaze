@@ -21,7 +21,7 @@ import {
     AlertDescription,
 } from "@chakra-ui/react";
 
-const AUTH_PATH = `${process.env.NEXT_PUBLIC_API_URL}+${process.env.NEXT_PUBLIC_TOKEN_PATH}`;
+const AUTH_PATH = `${process.env.NEXT_PUBLIC_API_URL}${process.env.NEXT_PUBLIC_TOKEN_PATH}`;
 
 const schema = yup.object().shape({
     username: yup
