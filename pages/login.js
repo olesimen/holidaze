@@ -51,13 +51,10 @@ const Login = () => {
         console.log(username, password);
 
         try {
-            const { data: loginData } = await axios.post(
-                "http://localhost:1337/auth/local",
-                {
-                    identifier: username,
-                    password: password,
-                }
-            );
+            const { data: loginData } = await axios.post(AUTH_PATH, {
+                identifier: username,
+                password: password,
+            });
             console.log(loginData);
             setAuth(loginData);
             router.push("/admin");
