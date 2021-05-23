@@ -3,6 +3,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { Head, Layout } from "@/components/layout";
+import { Heading } from "@chakra-ui/react";
 
 const accommodationsUrl = `${process.env.NEXT_PUBLIC_API_URL}/accommodations`;
 
@@ -42,7 +43,7 @@ const Accommodations = () => {
                 title="Accommodations"
                 description="All accommodations offered by Holidaze."
             />
-            <h1>Accommodations</h1>
+            <Heading>Accommodations</Heading>
         </Layout>
     );
 };
