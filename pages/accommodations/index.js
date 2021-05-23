@@ -43,7 +43,7 @@ const Accommodations = () => {
                 title="Accommodations"
                 description="All accommodations offered by Holidaze."
             />
-            <Heading>Accommodations</Heading>
+            <Heading>All accommodations</Heading>
         </Layout>
     );
 };
